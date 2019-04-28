@@ -1,9 +1,8 @@
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
-/*ALUNO: JONAS HAMERSKI - CIENCIA DA COMPUTACAO - MATRICULA: 32020004401
-
-ESCREVER UM PROGRAMA QUE LE UM VETOR (G13) QUE … O GABARITO DE UM TESTE DE LOTERIA
+/*
+ESCREVER UM PROGRAMA QUE LE UM VETOR (G13) QUE √â O GABARITO DE UM TESTE DE LOTERIA
 ESPORTIVA, CONTENDO OS VALORES 1(COLUNA1), 2(COLUNA2) E 3(COLUNA DO MEIO), LER A SEGUIR,
 PARA CADA APOSTADOR, O NUMERO DE SEU CARTAO E O CARTAO RESPOSTA R(13). VERIFICAR PARA 
 CADA APOSTADOR O NUMERO DE ACERTOS E ESCREVER EM UM ARQUIVO O NUMERO DO APOSTADOR E SEU
@@ -33,7 +32,7 @@ void arquivo(int cartao, int cont){//Funcao para gerar o arquivo.
 	FILE *txt; //Ponteiro do arquivo.
 	txt = fopen("C:\\Users\\Jonas\\Desktop\\resultado.txt", "a");
 	if(txt == NULL){   
-		printf("ERRO! O arquivo n„o foi aberto!\n");
+		printf("ERRO! O arquivo n√£o foi aberto!\n");
 	}else{
      	printf("O arquivo foi aberto com sucesso!\n\n");
    	}
